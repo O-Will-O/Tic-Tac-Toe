@@ -1,0 +1,135 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: lightcyan;
+    background-image: url(https://i.pinimg.com/236x/dd/1d/4f/dd1d4fea0b3ddffe43cd884f0bdb82f0.jpg);
+}
+.content
+{
+    margin: auto;
+    width: 630px;
+    background-color: black;
+    height: fit-content;
+}
+.head
+{
+    color: white;
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 36pt;
+}
+.main
+{
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+.player1Score, .player2Score
+{
+    width: fit-content;
+    padding: 20px 10px;
+}
+.player1Score, .player2Score, .TieCounter
+{
+    border: 3px solid black;
+    margin: 0px 10px;
+    background-color: white;
+}
+.TieCounter
+{
+    height: fit-content;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px 20px;
+}
+.player1Score h1, .player1Score p, .player2Score h1, .player2Score p
+{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 24pt;
+}
+.TieCounter h1, .TieCounter p
+{
+    font-size: 24pt;
+    display: inline-block;
+}
+.player1Score p, .player2Score p
+{
+    font-size: 30pt;
+    font-weight: bolder;
+}
+.TieCounter p
+{
+    font-weight: bold;
+}
+.activePlayer
+{
+    background-color: white;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 5px;
+}
+.activePlayer h4, .activePlayer h5
+{
+    display: inline-block;
+    font-size: 12pt;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns:200px 200px 200px;
+    width: fit-content;
+    margin: auto;
+
+}
+.grid-item
+{
+    display: table;
+    border: 5px solid black;
+    height: 185px;
+    width: 175px;
+    border-radius: 8px;
+    padding: 0px 10px ;
+    margin: auto;
+    border: 2px solid white;
+    font-size: 120pt;
+    text-align: center;
+    color: white;
+}
+.grid-item:hover
+{
+    background-color: rgb(42, 42, 42);
+}
+.winning-item
+{
+    background-color: lightgray;
+    color: black;
+}
+.controls
+{
+    height: fit-content;
+    width: fit-content;
+    font-size: 45px;
+    margin: 10px auto; 
+    padding-bottom: 10px;
+}
+.reset
+{
+    font-size: 30px;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: rgb(42, 42, 42);
+    color: rgb(201, 201, 201);
+    border: 2px ; 
+    border-style: ridge;
+    border-color: rgb(126, 126, 126);
+}
+.reset:hover
+{
+    background-color: rgb(72, 72, 72);
+    border-color: rgb(175, 175, 175);
+}
